@@ -1,0 +1,32 @@
+name: Bank
+version: 0.0.0
+api: ["3", "4"]
+main: ItzFabb\Bank\Main
+author: ItzFabb
+depend: ["EconomyAPI", "InvCrashFix", "PurePerms"]
+
+commands:
+  bank:
+    permission: command.bank.bank
+    description: bank command
+    default: true
+  withdraw:
+    permission: command.bank.withdraw
+    description: withdraw command 
+    default: true
+  deposit:
+    permission: command.bank.deposit
+    description: deposit command
+    default: true
+  bank-help:
+    permission: command.bank.help 
+    description: help bank command
+    default: true
+  bank-balance:
+    permission: command.bank.balance
+    description: balance bank command
+    default: true
+  bank-credits:
+    permission: command.bank.credits
+    description: bank credits command 
+    default: true
