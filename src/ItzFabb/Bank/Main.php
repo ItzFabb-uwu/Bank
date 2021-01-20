@@ -72,7 +72,7 @@ use onebone\economyapi\EconomyAPI;
 
 class Main extends PluginBase implements Listener {
 
-     private $uicooldown;
+
 
 	public function onEnable()
 	{
