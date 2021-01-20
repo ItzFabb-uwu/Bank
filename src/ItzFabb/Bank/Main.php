@@ -50,7 +50,7 @@ use pocketmine\inventory\transaction\action\SlotChangeAction;
 
 use pocketmine\command\Command;
 
-use pocketmine\command\Commandsender;
+use pocketmine\command\CommandSender;
 
 use pocketmine\command\ConsoleCommandSender;
 
