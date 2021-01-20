@@ -1,0 +1,945 @@
+#Bank Setup Config
+
+msg-ingame: "&c&lError! &r&7please use this command in-game"
+
+msg-noperms: "&c&lError! &r&7You don't have permission to use this command!"
+
+bank-balance-info: "&b&l%player_name% BANK ACCOUNT:+n&r&7Bank Balance: &b$%player_bank_balance%+n&7Your Balance: &b$%player_balance%"
+
+title: "&8&l» &6&lBANK &r"
+
+#MAIN GUIS
+
+item.name: "&r"
+
+item.id: 160
+
+item.meta: 15
+
+item.count: 1
+
+#
+
+item.name1: "&r"
+
+item.id1: 160
+
+item.meta1: 15
+
+item.count1: 1
+
+#
+
+item.name2: "&r"
+
+item.id2: 160
+
+item.meta2: 15
+
+item.count2: 1
+
+#
+
+item.name3: "&r"
+
+item.id3: 160
+
+item.meta3: 15 
+
+item.count3: 1
+
+#
+
+item.name4: "&r&b&lBank Info:+n+n&r&fStore all of your money in the bank to keep your money+n&fsave! and safety!"
+
+item.id4: 339
+
+item.meta4: 0
+
+item.count4: 1
+
+#
+
+item.name5: "&r"
+
+item.id5: 160
+
+item.meta5: 15
+
+item.count5: 1
+
+#
+
+item.name6: "&r"
+
+item.id6: 160
+
+item.meta6: 15
+
+item.count6: 1
+
+#
+
+item.name7: "&r"
+
+item.id7: 160
+
+item.meta7: 15
+
+item.count7: 1
+
+#
+
+item.name8: "&r"
+
+item.id8: 160
+
+item.meta8: 15 
+
+item.count8: 1
+
+#
+
+item.name9: "&r"
+
+item.id9: 160
+
+item.meta9: 15
+
+item.count9: 1
+
+#
+
+item.name10: "&r"
+
+item.id10: 160
+
+item.meta10: 15
+
+item.count10: 1
+
+#
+
+item.name11: "&r&b&lWITHDRAW+n&r&fClick here to withdraw money from your bank+n+n&b&lBank Balance: &r&f%player_bank_balance%+n&r&b&lYour Balance: &r&f%player_balance%"
+
+item.id11: 23
+
+item.meta11: 0
+
+item.count11: 1
+
+#
+
+item.name12: "&r"
+
+item.id12: 160
+
+item.meta12: 15
+
+item.count12: 1
+
+#
+
+item.name13: "&r&b&lYOUR ACCOUNT:&r+n+n&7Name: &b%player_name%+n&7Your Balance: &a$&e%player_balance%+n&7Bank Balance: &a$&e%player_bank_balance%+n+n&7Your ids: &b#%player_client_id%"
+
+item.id13: 397
+
+item.meta13: 3
+
+item.count13: 1
+
+#
+
+item.name14: "&r"
+
+item.id14: 160
+
+item.meta14: 15
+
+item.count14: 1
+
+#
+
+item.name15: "&r&b&lDEPOSIT+n&r&fClick here to deposit your money into your bank+n+n&b&lBank Balance: &r&f%player_bank_balance%+n&r&b&lYour Balance: &r&f%player_balance%"
+
+item.id15: 410
+
+item.meta15: 0
+
+item.count15: 1
+
+#
+
+item.name16: "&r"
+
+item.id16: 160
+
+item.meta16: 15
+
+item.count16: 1
+
+#
+
+item.name17: "&r"
+
+item.id17: 160
+
+item.meta17: 15
+
+item.count17: 1
+
+#
+
+item.name18: "&r&c&lEXIT+n+n&r&7Click to exit the bank menu"
+
+item.id18: 152
+
+item.meta18: 0
+
+item.count18: 1
+
+#
+
+item.name19: "&r"
+
+item.id19: 160
+
+item.meta19: 15
+
+item.count19: 1
+
+#
+
+item.name20: "&r"
+
+item.id20: 160
+
+item.meta20: 15
+
+item.count20: 1
+
+#
+
+item.name21: "&r"
+
+item.id21: 160
+
+item.meta21: 15
+
+item.count21: 1
+
+#
+
+item.name22: "&r"
+
+item.id22: 160
+
+item.meta22: 15
+
+item.count22: 1
+
+#
+
+item.name23: "&r"
+
+item.id23: 160
+
+item.meta23: 15
+
+item.count23: 1
+
+#
+
+item.name24: "&r"
+
+item.id24: 160
+
+item.meta24: 15
+
+item.count24: 1
+
+#
+
+item.name25: "&r"
+
+item.id25: 160
+
+item.meta25: 15
+
+item.count25: 1
+
+#
+
+item.name26: "&r"
+
+item.id26: 160
+
+item.meta26: 15
+
+item.count26: 1
+
+################
+
+#Custom Button
+
+#exit
+
+exit-id: 152
+
+exit-meta: 0
+
+#deposit
+
+deposit-id: 410
+
+deposit-meta: 0
+
+#withdraw 
+
+withdraw-id: 23
+
+withdraw-meta: 0
+
+#decoration block
+
+decor-id: 160
+
+decor-meta: 15
+
+#paper info
+
+paper-id: 339
+
+paper-meta: 0
+
+#
+
+#################
+
+#DEPOSIT GUIS
+
+deposit.item.name: "&r"
+
+deposit.item.id: 160
+
+deposit.item.meta: 15
+
+deposit.item.count: 1
+
+#
+
+deposit.item.name1: "&r"
+
+deposit.item.id1: 160
+
+deposit.item.meta1: 15
+
+deposit.item.count1: 1
+
+#
+
+deposit.item.name2: "&r"
+
+deposit.item.id2: 160
+
+deposit.item.meta2: 15
+
+deposit.item.count2: 1
+
+#
+
+deposit.item.name3: "&r"
+
+deposit.item.id3: 160
+
+deposit.item.meta3: 15 
+
+deposit.item.count3: 1
+
+#
+
+deposit.item.name4: "&r"
+
+deposit.item.id4: 160
+
+deposit.item.meta4: 15
+
+deposit.item.count4: 1
+
+#
+
+deposit.item.name5: "&r"
+
+deposit.item.id5: 160
+
+deposit.item.meta5: 15
+
+deposit.item.count5: 1
+
+#
+
+deposit.item.name6: "&r"
+
+deposit.item.id6: 160
+
+deposit.item.meta6: 15
+
+deposit.item.count6: 1
+
+#
+
+deposit.item.name7: "&r"
+
+deposit.item.id7: 160
+
+deposit.item.meta7: 15
+
+deposit.item.count7: 1
+
+#
+
+deposit.item.name8: "&r"
+
+deposit.item.id8: 160
+
+deposit.item.meta8: 15 
+
+deposit.item.count8: 1
+
+#
+
+deposit.item.name9: "&r"
+
+deposit.item.id9: 160
+
+deposit.item.meta9: 15
+
+deposit.item.count9: 1
+
+#
+
+deposit.item.name10: "&r"
+
+deposit.item.id10: 160
+
+deposit.item.meta10: 15
+
+deposit.item.count10: 1
+
+#
+
+deposit.item.name11: "&r"
+
+deposit.item.id11: 160
+
+deposit.item.meta11: 15
+
+deposit.item.count11: 1
+
+#
+
+deposit.item.name12: "&r"
+
+deposit.item.id12: 160
+
+deposit.item.meta12: 15
+
+deposit.item.count12: 1
+
+#
+
+deposit.item.name13: "&r&b&lENTER A SPESIFIC AMOUNT+n+n&r&7click to enter spesific amount to deposit+n&7your coins on bank!"
+
+deposit.item.id13: 323
+
+deposit.item.meta13: 0
+
+deposit.item.count13: 1
+
+#
+
+deposit.item.name14: "&r"
+
+deposit.item.id14: 160
+
+deposit.item.meta14: 15
+
+deposit.item.count14: 1
+
+#
+
+deposit.item.name15: "&r"
+
+deposit.item.id15: 160
+
+deposit.item.meta15: 15
+
+deposit.item.count15: 1
+
+#
+
+deposit.item.name16: "&r"
+
+deposit.item.id16: 160
+
+deposit.item.meta16: 15
+
+deposit.item.count16: 1
+
+#
+
+deposit.item.name17: "&r"
+
+deposit.item.id17: 160
+
+deposit.item.meta17: 15
+
+deposit.item.count17: 1
+
+#
+
+deposit.item.name18: "&r&c&lEXIT+n+n&r&7Click to exit the deposit menu"
+
+deposit.item.id18: 152
+
+deposit.item.meta18: 0
+
+deposit.item.count18: 1
+
+#
+
+deposit.item.name19: "&r"
+
+deposit.item.id19: 160
+
+deposit.item.meta19: 15
+
+deposit.item.count19: 1
+
+#
+
+deposit.item.name20: "&r"
+
+deposit.item.id20: 160
+
+deposit.item.meta20: 15
+
+deposit.item.count20: 1
+
+#
+
+deposit.item.name21: "&r"
+
+deposit.item.id21: 160
+
+deposit.item.meta21: 15
+
+deposit.item.count21: 1
+
+#
+
+deposit.item.name22: "&r"
+
+deposit.item.id22: 160
+
+deposit.item.meta22: 15
+
+deposit.item.count22: 1
+
+#
+
+deposit.item.name23: "&r"
+
+deposit.item.id23: 160
+
+deposit.item.meta23: 15
+
+deposit.item.count23: 1
+
+#
+
+deposit.item.name24: "&r"
+
+deposit.item.id24: 160
+
+deposit.item.meta24: 15
+
+deposit.item.count24: 1
+
+#
+
+deposit.item.name25: "&r"
+
+deposit.item.id25: 160
+
+deposit.item.meta25: 15
+
+deposit.item.count25: 1
+
+#
+
+deposit.item.name26: "&r&e&lGO BACK+n+n&r&7Click to go back to the bank menu"
+
+deposit.item.id26: 262
+
+deposit.item.meta26: 0
+
+deposit.item.count26: 1
+
+################
+
+#Custom Button
+
+#back button 
+
+back-id: 262
+
+back-meta: 0
+
+#exit button 
+
+exit-ids: 152
+
+exit-metas: 0
+
+#decor button 
+
+decors-id: 160 
+
+decors-meta: 15
+
+#deposit button
+
+deposit-id1: 323
+
+deposit-meta1: 0
+
+#
+
+################
+
+#Deposite settings:
+
+msg-put-number: "§c§lError! §r§7please put a §cnumber §7to deposit your coins!"
+
+msg-deposited: "§a§lSuccess! §r§7You have deposit §a$"#.$data[0]
+
+msg-no-enough-money: "§c§leError! §r§7You don't have enough money to deposit! §c$"#.$data[0]
+
+title-deposit: "§d§lDEPOSIT"
+
+content-deposit: "§eAmount:"
+
+#WITHDRAW GUIS
+
+withdraw.item.name: "&r"
+
+withdraw.item.id: 160
+
+withdraw.item.meta: 15
+
+withdraw.item.count: 1
+
+#
+
+withdraw.item.name1: "&r"
+
+withdraw.item.id1: 160
+
+withdraw.item.meta1: 15
+
+withdraw.item.count1: 1
+
+#
+
+withdraw.item.name2: "&r"
+
+withdraw.item.id2: 160
+
+withdraw.item.meta2: 15
+
+withdraw.item.count2: 1
+
+#
+
+withdraw.item.name3: "&r"
+
+withdraw.item.id3: 160
+
+withdraw.item.meta3: 15 
+
+withdraw.item.count3: 1
+
+#
+
+withdraw.item.name4: "&r"
+
+withdraw.item.id4: 160
+
+withdraw.item.meta4: 15
+
+withdraw.item.count4: 1
+
+#
+
+withdraw.item.name5: "&r"
+
+withdraw.item.id5: 160
+
+withdraw.item.meta5: 15
+
+withdraw.item.count5: 1
+
+#
+
+withdraw.item.name6: "&r"
+
+withdraw.item.id6: 160
+
+withdraw.item.meta6: 15
+
+withdraw.item.count6: 1
+
+#
+
+withdraw.item.name7: "&r"
+
+withdraw.item.id7: 160
+
+withdraw.item.meta7: 15
+
+withdraw.item.count7: 1
+
+#
+
+withdraw.item.name8: "&r"
+
+withdraw.item.id8: 160
+
+withdraw.item.meta8: 15 
+
+withdraw.item.count8: 1
+
+#
+
+withdraw.item.name9: "&r"
+
+withdraw.item.id9: 160
+
+withdraw.item.meta9: 15
+
+withdraw.item.count9: 1
+
+#
+
+withdraw.item.name10: "&r"
+
+withdraw.item.id10: 160
+
+withdraw.item.meta10: 15
+
+withdraw.item.count10: 1
+
+#
+
+withdraw.item.name11: "&r"
+
+withdraw.item.id11: 160
+
+withdraw.item.meta11: 15
+
+withdraw.item.count11: 1
+
+#
+
+withdraw.item.name12: "&r"
+
+withdraw.item.id12: 160
+
+withdraw.item.meta12: 15
+
+withdraw.item.count12: 1
+
+#
+
+withdraw.item.name13: "&r&b&lENTER A SPESIFIC AMOUNT+n+n&r&7click to enter spesific amount to withdraw+n&7your coins on bank!"
+
+withdraw.item.id13: 323
+
+withdraw.item.meta13: 0
+
+withdraw.item.count13: 1
+
+#
+
+withdraw.item.name14: "&r"
+
+withdraw.item.id14: 160
+
+withdraw.item.meta14: 15
+
+withdraw.item.count14: 1
+
+#
+
+withdraw.item.name15: "&r"
+
+withdraw.item.id15: 160
+
+withdraw.item.meta15: 15
+
+withdraw.item.count15: 1
+
+#
+
+withdraw.item.name16: "&r"
+
+withdraw.item.id16: 160
+
+withdraw.item.meta16: 15
+
+withdraw.item.count16: 1
+
+#
+
+withdraw.item.name17: "&r"
+
+withdraw.item.id17: 160
+
+withdraw.item.meta17: 15
+
+withdraw.item.count17: 1
+
+#
+
+withdraw.item.name18: "&r&c&lEXIT+n+n&r&7Click to exit the withdraw menu"
+
+withdraw.item.id18: 152
+
+withdraw.item.meta18: 0
+
+withdraw.item.count18: 1
+
+#
+
+withdraw.item.name19: "&r"
+
+withdraw.item.id19: 160
+
+withdraw.item.meta19: 15
+
+withdraw.item.count19: 1
+
+#
+
+withdraw.item.name20: "&r"
+
+withdraw.item.id20: 160
+
+withdraw.item.meta20: 15
+
+withdraw.item.count20: 1
+
+#
+
+withdraw.item.name21: "&r"
+
+withdraw.item.id21: 160
+
+withdraw.item.meta21: 15
+
+withdraw.item.count21: 1
+
+#
+
+withdraw.item.name22: "&r"
+
+withdraw.item.id22: 160
+
+withdraw.item.meta22: 15
+
+withdraw.item.count22: 1
+
+#
+
+withdraw.item.name23: "&r"
+
+withdraw.item.id23: 160
+
+withdraw.item.meta23: 15
+
+withdraw.item.count23: 1
+
+#
+
+withdraw.item.name24: "&r"
+
+withdraw.item.id24: 160
+
+withdraw.item.meta24: 15
+
+withdraw.item.count24: 1
+
+#
+
+withdraw.item.name25: "&r"
+
+withdraw.item.id25: 160
+
+withdraw.item.meta25: 15
+
+withdraw.item.count25: 1
+
+#
+
+withdraw.item.name26: "&r&e&lGO BACK+n+n&r&7Click to go back to the bank menu"
+
+withdraw.item.id26: 262
+
+withdraw.item.meta26: 0
+
+withdraw.item.count26: 1
+
+################
+
+#Custom Button
+
+#back button 
+
+backs-id: 262
+
+backs-meta: 0
+
+#exit button 
+
+exit-idss: 152
+
+exit-metass: 0
+
+#decor button 
+
+decorss-id: 160 
+
+decorss-meta: 15
+
+#deposit button
+
+withdraw-id1: 323
+
+withdraw-meta1: 0
+
+#
+
+################
+
+#Withdraw settings:
+
+msg-put-numbers: "§c§lError! §r§7please put a §cnumber §7to withdraw your coins!"
+
+msg-withdrawed: "§a§lSuccess! §r§7You have withdrawed §c$"#.$data[0]
+
+msg-no-enough-bank: "§c§lError! §r§7You don't have enough coins to withdraw! §c$"#.$data[0]
+
+title-withdraw: "§d§lWITHDRAW"
+
+content-withdraw: "§eAmount:"
